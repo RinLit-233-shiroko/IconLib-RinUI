@@ -65,4 +65,4 @@ Copyright 版权所有 © 2025 RinLit
 
 这是 Rin 作为新人开发的实验性项目，欢迎提出建议并贡献代码 ❤️
 
-汉化校对工作：白白的群子(furinafirefly)
+

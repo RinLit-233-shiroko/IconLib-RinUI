@@ -2,6 +2,9 @@
 <img src="assets/images/logo.png" width="18%" height="18%">
 <h1>Icon Library</h1>
 <p>An icon library for RinUI developers.</p>
+  
+**English** | [中文](./README_CN.md)
+
 </div>
 
 ## 📄 Introduction

@@ -3,7 +3,7 @@
 <h1>Icon Library</h1>
 <p>面向 RinUI 开发人员的图标库</p>
  
-  **中文** | [English](../README.MD)
+  **中文** | [English](README.MD)
   
 </div>
 

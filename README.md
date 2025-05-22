@@ -39,7 +39,7 @@ Then, install the requirements via pip:
 pip install -r requirements.txt
 ```
 
-Finally, you can run project.
+Finally, you can run the project.
 ```bash
 python main.py
 ```

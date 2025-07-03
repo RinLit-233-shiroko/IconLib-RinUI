@@ -24,6 +24,5 @@ if __name__ == "__main__":
     app = QApplication()
     icon_lib_main = IconLib()
     icon_lib_main.setTheme(Theme.Auto)
-    icon_lib_main.setBackdropEffect(BackdropEffect.Mica)
 
     sys.exit(app.exec())

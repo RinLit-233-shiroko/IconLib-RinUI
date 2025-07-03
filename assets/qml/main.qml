@@ -125,6 +125,12 @@ ApplicationWindow {
                         typography: Typography.Title
                         text: qsTr("Icon Library")
                     }
+
+                    Text {
+                        color: "#fff"
+                        typography: Typography.Caption
+                        text: qsTr("1.0.0")
+                    }
                 }
                 ColumnLayout {
                     spacing: 8
@@ -145,6 +151,7 @@ ApplicationWindow {
 
                         Flyout {
                             id: rinui_intro_flyout
+                            width: 400
                             position: Position.Left
                             text: "<b>RinUI is a Fluent Design UI library for Qt Quick (QML)</b> <br> With just a simple configuration, you can quickly develop an elegant Fluent-style UI interface."
                             buttonBox: [

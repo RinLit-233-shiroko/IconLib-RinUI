@@ -129,7 +129,7 @@ ApplicationWindow {
                     Text {
                         color: "#fff"
                         typography: Typography.Caption
-                        text: qsTr("1.0.0")
+                        text: qsTr("1.1.0")
                     }
                 }
                 ColumnLayout {

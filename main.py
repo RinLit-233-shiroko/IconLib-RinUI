@@ -1,14 +1,14 @@
 from PySide6.QtCore import QObject, Slot
 from PySide6.QtWidgets import QApplication
-from RinUI import RinUIWindow, BackdropEffect, Theme
+from pathlib import Path
+from RinUI import RinUIWindow, Theme
 import sys
-# from PySide6.QtCore import
 
 
 class IconLib(RinUIWindow):
     def __init__(self):
-        super().__init__("assets/qml/main.qml")
-        self.setIcon("assets/images/logo.png")
+        super().__init__(Path(__file__).resolve().parent / "assets" / "qml" / "main.qml")
+        self.setIcon((Path(__file__).parent / "assets" / "images" / "logo.png").as_posix())
         # register backend
         self.backend = IconLibBackend()
         self.engine.rootContext().setContextProperty("Backend", self.backend)

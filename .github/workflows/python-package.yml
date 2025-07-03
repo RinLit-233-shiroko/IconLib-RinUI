@@ -33,7 +33,7 @@ jobs:
             --name IconLibrary `
             --icon=assets/images/logo.png `
             --add-data "assets;assets" `
-            app.py
+            main.py
 
       - name: Zip Windows EXE
         run: |
@@ -68,7 +68,7 @@ jobs:
             --name IconLibrary \
             --icon=assets/images/logo.icns \
             --add-data "assets:assets" \
-            app.py
+            main.py
 
       - name: Zip macOS .app
         run: |

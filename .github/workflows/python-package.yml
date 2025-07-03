@@ -31,7 +31,7 @@ jobs:
             --noconsole `
             --contents-directory="." `
             --name IconLibrary `
-            --icon=assets/images/logo.png `
+            --icon=assets/images/logo.ico `
             --add-data "assets;assets" `
             main.py
 
